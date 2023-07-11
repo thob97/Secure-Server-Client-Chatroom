@@ -11,6 +11,13 @@ To achieve this, various security techniques have been employed. For instance, h
 - [Course content](#course-content)
 - [Grading](#grading)
 - [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Python Setup](#python-setup)
+    - [Dependencies](#dependencies)
+    - [Compile and run](#compile-and-run)
+  - [Docker Setup](#docker-setup)
+    - [Dependencies](#dependencies)
+    - [Compile and run](#compile-and-run)
 - [Example pictures](#example-pictures)
 - [Contribution](#contribution)
 
@@ -28,8 +35,28 @@ The purpose of this project is to further explore and solidify the concepts lear
 
 
 ## Getting Started 
-How to run the code:
-normal + docker
+
+### Installation
+
+ - `git clone https://github.com/thob97/Secure-Server-Client-Chatroom.git`
+ - `cd Secure-Server-Client-Chatroom`
+ - next either continue with the docker or python setup.
+
+### Python Setup
+#### Dependencies
+
+ * `python3`
+ * `bcrypt` can be installed with `pip install bcrypt`
+
+
+#### Compile and run
+- To compile and run the server, navigate to the server/ directory and execute the following command:
+
+`python3 server.py`
+
+- Afterwards navigate to the client/ directory, now you can connect multiple clients by running the following command in a separate terminal:
+
+`python3 client.py`
 
 ## TODO Example pictures
 
